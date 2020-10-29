@@ -27,6 +27,11 @@ function App() {
                     <Label for='maxResults'>Quantidade Máxima de Retornos</Label>
                     <input type='number' id='maxResults' placeholder='Quantidade Máxima de Retornos' />
                 </FormGroup>
+
+                <FormGroup className='ml-5'>
+                    <Label for='startIndex'>Indice Inicial</Label>
+                    <input type='number' id='startIndex' placeholder='Indice Inicial' />
+                </FormGroup>
               </div>
             </div>
         </div>
